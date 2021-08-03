@@ -1,0 +1,15 @@
+mixin colors(name,text,type)
+    .color-type
+        .color-item(class=''+name) 
+        .color-texts
+            .color-texts__text= text 
+            .color-texts__type= type
+           
+.colors
+    +colors('dark100','Dark Shade 100%', '#1F2041')
+    +colors('dark75','Dark Shade 75%', '#1F2041')
+    +colors('dark50','Dark Shade 50%', '#1F2041')
+    +colors('dark25','Dark Shade 25%', '#1F2041')
+    +colors('dark5','Dark Shade 5%', '#1F2041')
+    +colors('purple','Purple', '#BC9CFF')
+    +colors('green','Green', '#6FCF97')
