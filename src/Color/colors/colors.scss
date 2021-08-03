@@ -1,0 +1,41 @@
+.colors {
+    margin-top: 67px;
+    margin-left: 150px;
+    width: 282px;
+}
+.color-type {
+    display: flex;
+}
+
+.color-item {
+    border-radius: 6px;
+    width: 70px;
+    height: 70px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.dark100 {
+    background: #1F2041;
+}
+.dark75{
+    background: #1F2041;
+    opacity: 0.75;
+}
+.dark50 {
+    background: #1F2041;
+    opacity: 0.5;
+}
+.dark25 {
+    background: #1F2041;
+    opacity: 0.25;
+}
+.dark5 {
+    background: #1F2041;
+    opacity: 0.05;
+}
+.purple {
+    background: #BC9CFF;
+}
+.green {
+    background: #6FCF97;
+}
